@@ -53,7 +53,6 @@ The frontend is built with React and Vite. It uses TailwindCSS for styling and Z
 3. Start the development server:
 	```bash
     npm run dev
-The frontend will be available at `http://localhost:3000`.
 ### Dependencies
 
 -   `@tailwindcss/vite`: Vite plugin for TailwindCSS.
