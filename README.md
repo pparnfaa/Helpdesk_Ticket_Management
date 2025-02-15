@@ -27,7 +27,7 @@ The backend is built with Node.js and Express, using Prisma ORM to interact with
     npx prisma migrate dev
 7.  Start the backend server:
 	```bash
-    node app or nodemon app
+    node app
 The backend will be available at `http://localhost:4000`.
 
 ### Dependencies
