@@ -69,7 +69,7 @@ const Ticket = () => {
             <select
               value={filterStatus}
               onChange={handleFilterChange}
-              className="bg-[#214662] text-white p-2 rounded mr-5 ustify-center items-center flex h-11"
+              className="bg-[#7896ab] text-white p-2 rounded mr-5 justify-center items-center flex h-11 cursor-pointer"
             >
               <option value="ALL">All</option>
               <option value="PENDING">Pending</option>
@@ -79,7 +79,7 @@ const Ticket = () => {
             </select>
             <Link
               to="/create-ticket"
-              className="bg-[#7896ab] hover:bg-[#214662] text-white p-2 rounded mr-5 justify-center items-center flex w-32 h-11"
+              className="bg-[#214662] hover:bg-[#7896ab] text-white p-2 rounded mr-5 justify-center items-center flex w-32 h-11"
             >
               New Ticket
             </Link>

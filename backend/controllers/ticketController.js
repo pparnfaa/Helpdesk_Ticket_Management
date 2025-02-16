@@ -49,6 +49,9 @@ const getAllTickets = async (req, res) => {
     }
 
     const tickets = await prisma.ticket.findMany({
+      orderBy: {
+        timestamps: 'desc',
+      },
       where: filters,
     });
     res.status(200).json(tickets);
